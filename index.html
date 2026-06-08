@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Friendship Day!</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <!-- Tone.js for Sound Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home" class="logo">ForeverFriends</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#quotes">Quotes</a></li>
+            <li><a href="#gallery">Memories</a></li>
+            <li><a href="#friend-meter">Tester</a></li>
+            <li><a href="#generator">Surprise</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <h1>Happy Friendship Day!</h1>
+        <p>Friends are the family we choose for ourselves. Celebrate the beautiful bond of friendship, the late-night talks, the endless laughs, and the memories that last a lifetime.</p>
+        <a href="#gallery" class="btn">View Our Memories</a>
+    </section>
+
+    <!-- Quotes Section -->
+    <section id="quotes">
+        <h2>Words for the Heart</h2>
+        <div class="quote-grid">
+            <div class="quote-card">
+                <p class="quote-text">"A real friend is one who walks in when the rest of the world walks out."</p>
+                <strong>– Walter Winchell</strong>
+            </div>
+            <div class="quote-card" style="border-top-color: var(--secondary-color);">
+                <p class="quote-text">"Friendship is born at that moment when one person says to another, 'What! You too? I thought I was the only one.'"</p>
+                <strong>– C.S. Lewis</strong>
+            </div>
+            <div class="quote-card" style="border-top-color: var(--accent-color);">
+                <p class="quote-text">"Things are never quite as scary when you've got a best friend."</p>
+                <strong>– Bill Watterson</strong>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section id="gallery">
+        <h2>Our Best Memories</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczOXnQhYSH35gBba5ZEfEqcP5PhjxzjE_C8mWkONSDDiy5lzz_p92fHPq34Fe-4exzf_t8QEd21hgOBH_KGOAuFE_9a1jHlCkA0Qd0mldIt1sTiHEVw=s250-k-rw-no" alt="Friendship memory 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczOriU5iRRUi9THHd7nufZPEJ0HgG0GM2IayDzQS1Meaooc3w88_ZmIk4Eh8wwH0jWZvFzh_py79rgayeik3GInnOzXKlsd-z6oeDqqidaCKxirSfI4=s250-k-rw-no" alt="Friendship memory 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczMEReaU7-s9DJWfVh1eINLHUWP-UrQsBInwykv5BFZ7iIepEZ6TaRHS4x6-3M_ZT048ZFHBklOs_zUAjJuW-DYnNMqjZX63-Ed4meNz0b6QKeYnb_U=s250-k-rw-no" alt="Friendship memory 3">
+            </div>
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczNBi28N-9Kp2cMr_7xYpTxSxy0MEpFmrI-5V68cThFp12UZidMJ6FFeLQaGRg5LzQVij_kVomEnD6N7NbWHcItKGy0UTDo-ANN2E0fiP7LioSROUBE=s250-k-rw-no" alt="Friendship memory 4">
+            </div>
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczO8beLRFxMoTzHED09Ty0FEFBjjQ6WYhfKmCFuV_bhE-YVW185g-LnWOowoJ3kMO6wDYGgXQrgQBvx41_jti_nr-JYQQCXE6bMHsoFV7MHzpX_PQwE=s250-k-rw-no" alt="Friendship memory 5">
+            </div>
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczOsbQSshL5tmsyagGgFJm7d6vBaPfw_pAEh8TV_MNXCgeKkAM67sWB1Vrn3GfzdoaWzrUwCChSchRd1sOoC7ZKRQ82TrHJJOwLSm5H2QepOxS-Kstu-relFJhQ9FvxYin5RbKOUdkf2g3LqimXr_R9q=w1059-h795-s-no-gm" alt="Friendship memory 6">
+            </div>
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczMVIBr78ttKe3glaBJgjNsbuWbSVLYGqHyFUfDvApJthjXmm4jP7s9BNJ5aEODzq3giD3fsUomq4nf0FmFBtHF8LpP1Q3x_LD6cw2pDYVJPVqqtjtY=s250-k-rw-no" alt="Friendship memory 7">
+            </div>
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczPz3GpS9nFVfW2jnXncRG0RMe90cuk1B4BZf0zWKP130M_R7vR1gDtbGYtoQme6ms9Yxuw__N0SH6CLICSZLxhpwM0LTmaGttS0B5EUCblHlahbi-NpxEcbHTWsZestqva3R5y4WrpP4Bud0hlYsX9-=w1059-h795-s-no-gm" alt="Friendship memory 8">
+            </div>
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczOAd4WjEi6cAFT-NMx5lqyX3dL4sbqfCSLOX9GISkRc-iSUP7g5oiyYlcmGoTLpCDLTxYUaa6YDj2q-3AOMGUFWchpD6Vz0YbgQTk7pyAxYlSiIfZlbQcAvgdU86_OT8zTjglpixDbqPXCbmQEXstLM=w1059-h795-s-no-gm" alt="Friendship memory 9">
+            </div>
+            <div class="gallery-item">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczO2d3KUOuPTzm2oiTkOCtrdIptjDidWxhKD-GXqTLzidOn7RI-rBhvv049K4Hj05PfVtGFGNG-m13KpLaTy5MMmbM3ZwkdLrnZidZUpwQ_p5om8dYg=s250-k-rw-no" alt="Friendship memory 10">
+            </div>
+        </div>
+    </section>
+
+    <!-- Friendship Meter Section -->
+    <section id="friend-meter">
+        <h2>Friendship Tester 🧪</h2>
+        <p>How strong is our bond? Enter a name and let the highly scientific meter decide!</p>
+        <div class="meter-container">
+            <input type="text" id="friend-name" placeholder="Enter your bestie's name...">
+            <br>
+            <button class="btn" style="background-color: var(--accent-color);" onclick="calculateFriendship()">Calculate Bond</button>
+            <div class="progress-bar-bg">
+                <div class="progress-bar-fill" id="meter-fill"></div>
+            </div>
+            <p id="meter-result"></p>
+        </div>
+    </section>
+
+    <!-- Interactive Generator Section -->
+    <section id="generator">
+        <h2>Send a Smile</h2>
+        <p>Click the button below to generate a sweet message and celebrate!</p>
+        
+        <div id="dynamic-quote">"A friend is someone who knows all about you and still loves you."</div>
+        
+        <button class="btn" style="background-color: var(--primary-color); color: var(--text-dark);" onclick="generateQuote()">Pop a Surprise Message!</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with ❤️ for Friendship Day.</p>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
